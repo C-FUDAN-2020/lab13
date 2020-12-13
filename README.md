@@ -95,7 +95,7 @@ int main(){
     // question1: i，j 满足什么条件c1为真（不考虑访问越界）
     int c1 = &a[1][j] == b + i;
 
-    // question2: i，j满足什么条件c2为真（不考虑访问越界）
+    // question2: i，j 满足什么条件c2为真（不考虑访问越界）
     int c2 = *(a[i] + j) == *(b + i + j);
 
     //question3: i，j 满足什么条件c3为真（不考虑访问越界）
