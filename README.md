@@ -88,8 +88,8 @@ int* sort(int* arr){
 
 int main(){
     int a[3][4] = {{1,2,3,4},{5,6,7,8},{9,10,11,12}};
-    int *b = a;
-
+    int *b;
+    b = a;
     int i, j;
 
     // question1: i，j 满足什么条件c1为真（不考虑访问越界）
