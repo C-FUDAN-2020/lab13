@@ -15,33 +15,6 @@
 
 截止时间：北京时间 2020年12月20日 23:59:59
 
-## include实验（重要！！）
-
-include是同学们编写C程序写的第一个单词，它也是多文件项目的重要一环。 
-
-#### 本质
-预编译的时候copy include头文件的内容到当前行
-
-#### "" 与<> 区别
-
-""先在当前目录查找有无该头文件，有则包含该目录下的头文件，没有则到系统指定的目录下找该头文件
-
-<>直接到系统指定的目录下查找该文件（gcc目录下或者操作系统指定的默认目录，如 /user/include/stdio.h）
-
-#### 被include的常见内容
-
-宏定义
-
-typedef
-
-包含别的头文件
-
-inline函数定义
-
-函数声明
-
-struct,union,enum类型定义
-
 ## 思考题
 
 > 请提交书面答案的文档
@@ -158,3 +131,4 @@ void insert(char *s1, char *s2, int pos){
 
 ## 部分资料来源
 1. C语言之#include用法详解 https://zhuanlan.zhihu.com/p/127956061
+2. C语言(GCC)如何编译多个文件 https://www.zhihu.com/question/40972250
