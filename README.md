@@ -129,6 +129,3 @@ void insert(char *s1, char *s2, int pos){
 示例运行如下（注意其中Happy与Year中间有两个空格）：
 ![ppt图片](./code1.png)
 
-## 部分资料来源
-1. C语言之#include用法详解 https://zhuanlan.zhihu.com/p/127956061
-2. C语言(GCC)如何编译多个文件 https://www.zhihu.com/question/40972250
