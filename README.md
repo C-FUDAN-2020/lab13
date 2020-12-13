@@ -33,7 +33,7 @@
 
 ```c
 #include <stdio.h>
-int * sort(int*);
+int* sort(int*);
 
 int main(){
     int count, sum = 0, *arr;
