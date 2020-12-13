@@ -4,7 +4,6 @@
 >
 >1. 学习强化指针的使用。
 >2. 了解指针与数组的关系
->3. 回顾include
 
 获取及提交lab
 -------
@@ -16,7 +15,7 @@
 
 截止时间：北京时间 2020年12月20日 23:59:59
 
-## 思考题目
+## 思考题
 
 > 请提交书面答案的文档
 
@@ -103,3 +102,26 @@ int main(){
 }
 ```
 
+## 编程题
+
+1、编写函数 insert(char* s1, char* s2, int post)实现在字符串s1中的指定位置pos处插入字符串s2（补全如下代码）。
+
+```c
+#include <stdio.h>
+void insert(char *s1, char *s2, int pos);
+int main(){
+    char s1[80],s2[80];
+    int pos;
+    gets(s1);
+    gets(s2);
+    scanf("%d",&pos);
+    insert(s1,s2,pos);
+    puts(s1);
+    return 0;
+}
+void insert(char *s1, char *s2, int pos){
+    //TODO: 
+}
+```
+示例运行如下（注意其中Happy与Year中间有两个空格）：
+![ppt图片](./code1.png)
