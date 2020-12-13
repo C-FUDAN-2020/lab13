@@ -27,7 +27,7 @@
 
 > 输出：排序前后对应位置元素的乘积和    
 
-<img src="./question1.png" alt="question1"/>
+![question1](./question1.png)
 
 机智小明很快写下了如下代码。但这个代码有3个bug，请帮他找到，并提供解决方法（同类型bug算一个）。
 
