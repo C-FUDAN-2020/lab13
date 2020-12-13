@@ -81,7 +81,7 @@ int* sort(int* arr){
 所以大家还记得数组`a[i][j]`的三种等价表示形式吗？
 ![ppt图片](./ppt.png)
 
-请回答如下代码中提出的两个问题。
+请回答如下代码中提出的三个问题。
 
 ```c
 #include <stdio.h>
@@ -90,13 +90,16 @@ int main(){
     int a[3][4] = {{1,2,3,4},{5,6,7,8},{9,10,11,12}};
     int *b = a;
 
-    int i, j, j1, j2;
+    int i, j;
 
-    // question1: i，j满足什么条件c1为真（不考虑访问越界）
-    int c1 = *(a[i] + j) == *(b + i + j);
+    // question1: i，j 满足什么条件c1为真（不考虑访问越界）
+    int c1 = &a[1][j] == b + i;
 
-    //question2: j1, j2 满足什么条件c2为真（不考虑访问越界）
-    int c2 = *(a + 1) + j1 == b + j2;
+    // question2: i，j满足什么条件c2为真（不考虑访问越界）
+    int c2 = *(a[i] + j) == *(b + i + j);
+
+    //question3: i，j 满足什么条件c3为真（不考虑访问越界）
+    int c3 = *(a + i) + 1 == b + j;
     
     return 0;
 }
