@@ -111,7 +111,7 @@ int main(){
 }
 ```
 
-## 编程题（所有题目此次不允许使用string.h中的函数实现）
+## 编程题（ <strong>所有题目此次不允许使用string.h中的函数实现</strong>）
 
 #### 1. 编写函数 insert(char* s1, char* s2, int pos)实现在字符串s1中的指定位置pos处插入字符串s2（补全如下代码）。
 
@@ -151,7 +151,7 @@ int main(){
     if(pos < 0){
         printf("Not found!\n");
     } else {
-        printf("The pos is %d\n",pos);
+        printf("The pos is %d.\n",pos);
     }
     return 0;
 }
