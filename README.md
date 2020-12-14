@@ -28,11 +28,11 @@
 
 示例1
 
-> 输入:  count=5, element=2 4 3 5 1
+> 输入：count=5, element=2 4 3 5 1
 
-> 输出:  44
+> 输出： 44
 
-> 解释:  排序后 1 2 3 4 5，对应乘积和 2 * 1 + 4 * 2 + 3 * 3 + 5 * 4 + 1 * 5 = 44
+> 解释：排序后 1 2 3 4 5，对应乘积和 2 * 1 + 4 * 2 + 3 * 3 + 5 * 4 + 1 * 5 = 44
 
 机智小明很快写下了如下代码。但这个代码有3个bug，请帮他找到，并提供解决方法（同类型bug算一个）。
 
@@ -133,11 +133,11 @@ void insert(char *s1, char *s2, int pos){
 }
 ```
 示例1
-> 输入: s1 = "Happy  Year", needle = "New", pos=7
+> 输入：s1 = "Happy  Year", needle = "New", pos=7
 
-> 输出: Happy New Year
+> 输出：Happy New Year
 
-> 解释: 插入的位置从1开始，s1中的Happy与Year之间有两个空格。
+> 解释：插入的位置从1开始，s1中的Happy与Year之间有两个空格。
 
 2、编写函数 int find(char* haystack, char* needle)，给定一个 haystack 字符串和一个 needle 字符串，在 haystack 字符串中找出 needle 字符串出现的第一个位置 (从0开始)。如果不存在，则返回  -1（补全如下代码）。
 
@@ -161,19 +161,19 @@ int find(char* haystack, char* needle){
 }
 ```
 示例1
-> 输入: haystack = "hello", needle = "ll"
+> 输入：haystack = "hello", needle = "ll"
 
-> 输出: 2
+> 输出：2
 
 示例2
-> 输入: haystack = "aaaaa", needle = "bba"
+> 输入：haystack = "aaaaa", needle = "bba"
 
-> 输出: -1
+> 输出：-1
 
 示例3
-> 输入: haystack = "aaaaa", needle = ""
+> 输入：haystack = "aaaaa", needle = ""
 
-> 输出: 0
+> 输出：0
 
 ## 部分资料来源
 
