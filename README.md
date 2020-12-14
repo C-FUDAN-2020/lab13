@@ -28,7 +28,7 @@
 
 示例1
 
-> 输入：count=5, element=2 4 3 5 1
+> 输入：count=5, elements=2 4 3 5 1
 
 > 输出： 44
 
