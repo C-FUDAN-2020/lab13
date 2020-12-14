@@ -177,6 +177,6 @@ int find(char* haystack, char* needle){
 
 ## 部分资料来源
 
-1. 力扣（LeetCode）https://leetcode-cn.com/problems/implement-strstr
+1. 力扣（LeetCode）https://leetcode-cn.com/
 
 
