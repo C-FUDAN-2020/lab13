@@ -67,7 +67,7 @@ int* sort(int* arr){
         min_value = sorted[i];
         min_pos = i;
         for(int j = i + 1; j < len; j++){
-            if(sorted[j] < sorted[i]){
+            if(sorted[j] < min_value){
                 min_value = sorted[j];
                 min_pos = j;
             }
