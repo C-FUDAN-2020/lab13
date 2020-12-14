@@ -133,7 +133,7 @@ void insert(char *s1, char *s2, int pos){
 }
 ```
 示例1
-> 输入：s1 = "Happy  Year", needle = "New", pos=6
+> 输入：s1 = "Happy  Year", s2 = "New", pos=6
 
 > 输出：Happy New Year
 
