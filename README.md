@@ -113,7 +113,7 @@ int main(){
 
 ## 编程题（所有题目此次不允许使用string.h中的函数实现）
 
-1、编写函数 insert(char* s1, char* s2, int pos)实现在字符串s1中的指定位置pos处插入字符串s2（补全如下代码）。
+#### 1. 编写函数 insert(char* s1, char* s2, int pos)实现在字符串s1中的指定位置pos处插入字符串s2（补全如下代码）。
 
 ```c
 #include <stdio.h>
@@ -139,7 +139,7 @@ void insert(char *s1, char *s2, int pos){
 
 > 解释：插入的位置从0开始，s1中的Happy与Year之间有两个空格。
 
-2、编写函数 int find(char* haystack, char* needle)，给定一个 haystack 字符串和一个 needle 字符串，在 haystack 字符串中找出 needle 字符串出现的第一个位置 (从0开始)。如果不存在，则返回  -1（补全如下代码）。
+#### 2. 编写函数 int find(char* haystack, char* needle)，给定一个 haystack 字符串和一个 needle 字符串，在 haystack 字符串中找出 needle 字符串出现的第一个位置 (从0开始)。如果不存在，则返回  -1（补全如下代码）。
 
 ```c
 #include <stdio.h>
