@@ -28,9 +28,11 @@
 
 示例1
 
-> 输入: count=5, element=
->
-![question1](./question1.png)
+> 输入: count=5, element=2 4 3 5 1
+
+> 输出: 44
+
+> 解释: 排序后 1 2 3 4 5，对应乘积和 2 * 1 + 4 * 2 + 3 * 3 + 5 * 4 + 1 * 5 = 44
 
 机智小明很快写下了如下代码。但这个代码有3个bug，请帮他找到，并提供解决方法（同类型bug算一个）。
 
@@ -157,14 +159,17 @@ int find(char* haystack, char* needle){
 ```
 示例1
 > 输入: haystack = "hello", needle = "ll"
+
 > 输出: 2
 
 示例2
 > 输入: haystack = "aaaaa", needle = "bba"
+
 > 输出: -1
 
 示例3
 > 输入: haystack = "aaaaa", needle = ""
+
 > 输出: 0
 
 ## 部分资料来源
