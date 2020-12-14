@@ -26,6 +26,10 @@
 
 > 输出：排序前后对应位置元素的乘积和    
 
+示例1
+
+> 输入: count=5, element=
+>
 ![question1](./question1.png)
 
 机智小明很快写下了如下代码。但这个代码有3个bug，请帮他找到，并提供解决方法（同类型bug算一个）。
@@ -105,7 +109,7 @@ int main(){
 }
 ```
 
-## 编程题
+## 编程题（所有题目此次不允许使用string.h中的函数实现）
 
 1、编写函数 insert(char* s1, char* s2, int post)实现在字符串s1中的指定位置pos处插入字符串s2（补全如下代码）。
 
@@ -126,6 +130,45 @@ void insert(char *s1, char *s2, int pos){
     //TODO: 
 }
 ```
-示例运行如下（注意其中Happy与Year中间有两个空格）：
-![ppt图片](./code1.png)
+示例1
+> 输入: s1 = "Happy  Year", needle = "New", pos=7
+> 输出: Happy New Year
+
+2、编写函数 int find(char* haystack, char* needle)，给定一个 haystack 字符串和一个 needle 字符串，在 haystack 字符串中找出 needle 字符串出现的第一个位置 (从0开始)。如果不存在，则返回  -1（补全如下代码）。
+
+```c
+#include <stdio.h>
+int main(){
+    char s1[80],s2[80];
+    gets(s1);
+    gets(s2);
+    int pos = find(s1,s2);
+    if(pos < 0){
+        printf("Not found!\n");
+    } else {
+        printf("The pos is %d\n",pos);
+    }
+    return 0;
+}
+int find(char* haystack, char* needle){
+    //TODO: 
+    return 0;
+}
+```
+示例1
+> 输入: haystack = "hello", needle = "ll"
+> 输出: 2
+
+示例2
+> 输入: haystack = "aaaaa", needle = "bba"
+> 输出: -1
+
+示例3
+> 输入: haystack = "aaaaa", needle = ""
+> 输出: 0
+
+## 部分资料来源
+
+1. 力扣（LeetCode）https://leetcode-cn.com/problems/implement-strstr
+
 
